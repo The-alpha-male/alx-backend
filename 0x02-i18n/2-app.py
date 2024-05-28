@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 class Config:
-    """configuration"""
+    """language configuration"""
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
@@ -26,7 +26,7 @@ def get_locales():
 
 @app.route('/')
 def index():
-    """Index"""
+    """Index the application"""
     return render_template('2-index.html')
 
 
