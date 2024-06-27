@@ -21,7 +21,7 @@ Install the Babel Flask extension:
     $ pip3 install flask_babel==2.0.0
     
 
-Then instantiate the `Babel` object in your app. Store it in a module-level variable named `babel`.
+Then instantiate the `Babel` object in your app. Store it in a module-level variable named `babel`
 
 In order to configure available languages in our app, you will create a `Config` class that has a `LANGUAGES` class attribute equal to `["en", "fr"]`.
 
